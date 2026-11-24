@@ -1,0 +1,55 @@
+:root {
+  color-scheme: light;
+  --bg: #F7F6F2;
+  --paper: #FFFFFF;
+  --field: #F2F1EC;
+  --field-hover: #EAE8E1;
+  --line: rgba(22, 22, 26, 0.09);
+  --line-strong: rgba(22, 22, 26, 0.16);
+
+  --ink: #16161A;
+  --quiet: #5A5960;
+  --faint: #8E8D94;
+
+  --accent: #16161A;
+  --accent-hover: #2C2C34;
+  --accent-wash: #F2F1EC;
+
+  --brand: #C83E2B;
+  --brand-wash: #FDF2F0;
+
+  --saving: #B45309;
+  --saving-wash: #FAF6EC;
+  --saving-border: #E8D9B5;
+
+  --hero-bg: #16161A;
+  --hero-highlight: #FBBF24;
+  --hero-muted: #A1A1AA;
+
+  --up: #C83E2B;
+  --up-wash: #FDF2F0;
+  --down: #B45309;
+  --down-wash: #FAF6EC;
+
+  --warn-bg: #FEF7E6;
+  --warn-ink: #92400E;
+  --warn-border: #F5DFB0;
+
+  --danger: #DC2626;
+  --danger-wash: #FEF2F2;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 14px;
+  --control-h: 2.375rem;
+  --shadow-card: 0 1px 2px rgba(22, 22, 26, 0.04), 0 4px 16px rgba(22, 22, 26, 0.03);
+  --shadow-popup: 0 12px 32px rgba(22, 22, 26, 0.12), 0 2px 6px rgba(22, 22, 26, 0.05);
+  --shadow-modal: 0 24px 60px rgba(22, 22, 26, 0.24);
+
+  font-family: -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
